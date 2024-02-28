@@ -1,61 +1,80 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
-    
-    background: linear-gradient(aqua, #6a75f0,violet);
-    height:200vh;
+
+body {
+    background: linear-gradient(aqua, #6a75f0, violet);
+    height: 200vh;
 }
 
-#main{
-    height:100vh;
-    display:flex;
+#main {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    
+
 }
-a{
-    display: block;
-}
-h1{
+
+
+
+h1 {
     margin: 80px 0px;
     font-size: 50px;
     font-family: "roboto", sans-serif;
 }
-#textarea{
+
+#textarea {
     resize: none;
-    width:75vw;
-    height:275px;
-    margin:0px 0px 45px 0px;
-    border:2.5px solid black;
+    width: 75vw;
+    height: 275px;
+    margin: 0px 0px 45px 0px;
+    border: 2.5px solid black;
     border-radius: 10px;
-    font-family: "baloo bhai 2","roboto", sans-serif;
+    font-family: "baloo bhai 2", "roboto", sans-serif;
     font-size: 1.25rem;
-    padding:20px;
+    padding: 20px;
 }
-button{
-    height:50px;
+
+button {
+    height: 50px;
     width: 130px;
     border: 0.5px solid gray;
-    background-color:rgb(245, 229, 208);
+    background-color: rgb(245, 229, 208);
     border-radius: 5px;
     font-size: 1.15rem;
     font-family: "baloo bhai 2", "roboto", sans-serif;
 }
-button:hover{
-    background-color:rgb(245, 220, 190);
-    border:1px solid gray;
+
+button:hover {
+    background-color: rgb(245, 220, 190);
+    border: 1px solid gray;
 }
-.scroll{
-    bottom:0;
-    right:0;
+
+.scroll {
+    bottom: 0;
+    right: 0;
 }
-.container{
-    height:100vh;
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.audiobox{
+    padding:15px;
+    border: solid black 2px;
+    border-radius: 15px;
+    height:200px;
+    width:300px;
+}
+
+
 
